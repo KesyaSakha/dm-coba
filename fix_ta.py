@@ -13,7 +13,7 @@ import pandas as pd
 import numpy as np
 
 ##from google.colab import drive
-drive.mount('/content/drive')
+##drive.mount('/content/drive')
 
 df = pd.read_csv('/content/drive/My Drive/Data Mining/Tugas Akhir/adult-depression-lghc-indicator-24.csv')
 df.head()
