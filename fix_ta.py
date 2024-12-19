@@ -203,7 +203,6 @@ from sklearn.metrics import silhouette_score
 score = silhouette_score(x, y_means)
 print("Silhouette Score:", score)
 
-!pip install streamlit -q
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
