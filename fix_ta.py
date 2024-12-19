@@ -308,9 +308,3 @@ print("Silhouette Score:", score)
 # else:
 #     st.info("Silakan unggah file CSV untuk memulai analisis.")
 #
-
-!wget -q -O - ipv4.icanhazip.com
-
-!npm install -g localtunnel
-
-!streamlit run app.py & npx localtunnel --port 8501
